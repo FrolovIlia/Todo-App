@@ -16,4 +16,15 @@
         <item name="cornerFamily">cut</item>
         <item name="cornerSize">12dp</item>
     </style>
+    <style name="Widget.AppCompat.TextInputLayout" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="shapeAppearance">@style/CutShape</item>
+        <item name="hintTextColor">@color/black</item>
+        <item name="boxStrokeColor">@color/black</item>
+        <item name="endIconMode">clear_text</item>
+        <item name="errorIconDrawable">@null</item>
+        <item name="errorEnabled">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textCursorDrawable">@color/black</item>
+        <item name="startIconTint">@color/black</item>
+    </style>
 </resources>
