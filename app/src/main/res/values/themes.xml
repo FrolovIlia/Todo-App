@@ -9,7 +9,7 @@
 
     <style name="Theme.TodoApp" parent="Base.Theme.TodoApp" />
     
-    <style name="CardViewStyle" parent="Widget.Material3.CardView.Outlined">
+    <style name="CardViewStyle" parent="Widget.Material3.CardView.Filled">
         <item name="shapeAppearanceOverlay">@style/CutShape</item>
     </style>
     <style name="CutShape" parent="ShapeAppearance.Material3.MediumComponent">
@@ -30,6 +30,12 @@
 
     <style name="Widget.App.Button.Fill" parent="Widget.Material3.TextInputLayout.FilledBox">
         <item name="shapeAppearance">@style/CutShape</item>
+    </style>
+    
+    <style name="DialogCustomTheme" parent="Theme.Material3.DayNight.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
     </style>
     
 </resources>

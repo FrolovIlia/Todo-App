@@ -50,6 +50,7 @@
         android:layout_margin="16dp"
         android:backgroundTint="@color/black"
         android:text="Add Task"
+        android:id="@+id/addTaskFABtn"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="18sp"
