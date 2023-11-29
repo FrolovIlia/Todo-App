@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="New Task"
+            android:text="Update Task"
             android:textStyle="bold"
             android:textSize="24dp"/>
         <ImageView
@@ -81,11 +81,11 @@
             </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/saveTaskBtn"
+            android:id="@+id/updateTaskBtn"
             android:layout_width="wrap_content"
             android:layout_height="?actionBarSize"
             android:layout_gravity="center"
-            android:text="Save Task"
+            android:text="Update Task"
             android:layout_marginTop="4dp"
             android:backgroundTint="@color/black"
             style="@style/Widget.App.Button.Fill"
